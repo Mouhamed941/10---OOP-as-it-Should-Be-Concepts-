@@ -1,8 +1,6 @@
 
-
 #include <iostream>
 using namespace std;
-
 class clsPerson
 {
 
@@ -12,14 +10,14 @@ private:
 	string _FirstName;
 	string _LastName;
 public:
-	//Set Propertie
+	//Set Property
 	void SetFirstName(string FirstName)
 	{
 		_FirstName = FirstName;
 	}
 
 	//Get Propertie
-	string FirstName()
+	string GetFirstName()
 	{
 		return _FirstName;
 	}
@@ -29,22 +27,24 @@ public:
 	{
 		_LastName = LastName;
 	}
-	
+
 	//Get Propertie
 	string LastName()
 	{
 		return _LastName;
 	}
+	__declspec(property(get = GetFirstName, put = SetFirstName)) string FirstName;
 };
-
 int main()
 {
 	clsPerson Person1;
 	Person1.SetFirstName("Mouhamed");
-	Person1.SetLastName("FARDOUSI");
-
-	cout << Person1.FirstName() << endl;
-	cout << Person1.LastName() << endl;
+	cout << Person1.GetFirstName() << endl;
+	
+	//insted of the above we only write
+	Person1.FirstName = "Mouhamed";
+	cout << Person1.FirstName << endl;
 	system("pause>0");
 }
+
 
