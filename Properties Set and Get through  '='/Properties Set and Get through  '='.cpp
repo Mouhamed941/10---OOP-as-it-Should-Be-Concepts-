@@ -43,7 +43,7 @@ int main()
 	
 	//insted of the above we only write
 	Person1.FirstName = "Mouhamed";
-	cout << Person1.FirstName << endl;
+	cout << Person1. << endl;
 	system("pause>0");
 }
 
