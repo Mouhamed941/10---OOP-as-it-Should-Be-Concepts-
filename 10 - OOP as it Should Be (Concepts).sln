@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructors", "Constructor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Copy Constructors", "Copy Constructors\Copy Constructors.vcxproj", "{851D1D68-3ACA-4943-B238-05CBB44E22EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static Members", "Static Members\Static Members.vcxproj", "{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{851D1D68-3ACA-4943-B238-05CBB44E22EC}.Release|x64.Build.0 = Release|x64
 		{851D1D68-3ACA-4943-B238-05CBB44E22EC}.Release|x86.ActiveCfg = Release|Win32
 		{851D1D68-3ACA-4943-B238-05CBB44E22EC}.Release|x86.Build.0 = Release|Win32
+		{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}.Debug|x64.ActiveCfg = Debug|x64
+		{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}.Debug|x64.Build.0 = Debug|x64
+		{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}.Debug|x86.Build.0 = Debug|Win32
+		{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}.Release|x64.ActiveCfg = Release|x64
+		{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}.Release|x64.Build.0 = Release|x64
+		{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}.Release|x86.ActiveCfg = Release|Win32
+		{FA5CDB5C-141F-4B77-8CAB-7AC5247B8260}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
